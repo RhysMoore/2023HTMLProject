@@ -10,14 +10,36 @@
             margin: auto;
         }
 
-        .nav{
-            width: 1200px;
-            height: 52px;
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: darkgray;
+        }
+
+        li{
             float: left;
         }
 
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        li a:hover{
+            background-color: #111;
+        }
+
+        .active{
+            background-color: seagreen;
+        }
+
         .navCard{
-            width: 300px;
+            width: 200px;
             float: left;
         }
 
@@ -50,12 +72,13 @@
 <body>
 
 <div class="container">
-    <div class="nav">
-        <div class="navCard"><a href="basics.html">The Basics of Reenacting</a></div>
-        <div class="navCard"><a href="types.html">Types of Reenacting</a></div>
-        <div class="navCard"><a href="how.html">How to be Involved</a></div>
-        <div class="navCard"><a href="contact.html">Leave your thoughts about the site</a></div>
-    </div>
+    <ul>
+        <li class="navCard"><a href="redesignIndex.html" class="active">Home</a></li>
+        <li class="navCard"><a href="basics.html">The Basics of Reenacting</a></li>
+        <li class="navCard"><a href="types.html">Types of Reenacting</a></li>
+        <li class="navCard"><a href="how.html">How to be Involved</a></li>
+        <li class="navCard"><a href="contact.html">Leave your thoughts about the site</a></li>
+    </ul>
     <div class="header"><font size="10px">The Reenacting Hobby</font></div>
     <div class="text">Intro text goes here</div>
     <div class="images">Images go here</div>
