@@ -1,0 +1,29 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    height: 104px;
+    width: 1200px
+}
+
+.text{
+    width: 1200px;
+    height: 100px;
+    background-color: red;
+}
+
+.images{
+    width: 900px;
+    height: 500px;
+    background-color: aqua;
+    float: left;
+}
+
+.links{
+    width: 300px;
+    height: 500px;
+    background-color: violet;
+    float: left;
+}
